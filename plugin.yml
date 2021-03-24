@@ -1,0 +1,5 @@
+name: CopyLocation
+main: net.novauniverse.copylocation.CopyLocation
+description: A command that copy your location
+version: 1.0
+depend: [NovaCore]
