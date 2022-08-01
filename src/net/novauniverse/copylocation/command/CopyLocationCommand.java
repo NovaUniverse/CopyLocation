@@ -25,7 +25,7 @@ public class CopyLocationCommand extends NovaCommand {
 		setPermission("copylocation.copylocation");
 		setPermissionDefaultValue(PermissionDefault.OP);
 		setPermissionDescription("Allow the player to use the copy location command");
-		setUseage("/copylocation [indent] [-v | --verbose] [-c | --center]");
+		setUsage("/copylocation [indent] [-v | --verbose] [-c | --center]");
 		setDescription("Copy the player location as json to the server clipboard");
 		addHelpSubCommand();
 	}
